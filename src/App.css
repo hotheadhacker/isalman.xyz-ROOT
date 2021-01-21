@@ -28,7 +28,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes mymove {
   from {
     transform: rotate(0deg);
   }
@@ -36,3 +36,111 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+background-color:darkslategray;
+height: 700px;
+}
+
+.heading{
+  text-align: center;
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+  font-family: 'Pacifico', cursive;
+  color:rgb(202, 240, 164);
+  padding-top: 10%;
+
+}
+
+.cards{
+  text-align: center;
+  /* padding-top: 20%; */
+  background-color:whitesmoke;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: solid #000;
+  border-width: 0 10px;
+  border-color: yellowgreen;
+  border-width: 30%;
+  /* border-radius: 50%; */
+  
+}
+
+.title{
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+.one{
+  background-color: aquamarine;
+  
+}
+a{
+  text-decoration:none;
+  color: black;
+  
+}
+a:hover { color: white; }
+
+
+
+.one:hover{
+  /* position: relative;
+  animation: mymove 5s infinite; */
+  background-color: teal;
+}
+
+
+.two{
+  background-color:coral;
+}
+
+.two:hover{
+  /* position: relative;
+  animation: mymove 5s infinite; */
+  background-color: teal;
+}
+
+.three{
+  background-color:rgb(136, 185, 185);
+}
+
+.three:hover{
+  /* position: relative;
+  animation: mymove 5s infinite; */
+  background-color: teal;
+}
+
+.four{
+  background-color:rgb(226, 188, 174);
+}
+
+.four:hover{
+  /* position: relative;
+  animation: mymove 5s infinite; */
+  background-color: teal;
+}
+.imgContainer{
+  align-items: center;
+
+}
+.photo{
+  width: 150px;
+  height: 150px;
+}
+
+.txt1{
+  color:white;
+  font-size: 20px;
+}
+
+pre, code { 
+  font-family: Hack, monospace;
+  color:#003B00;
+  font-weight: bold;
+ }
+ .quotes{
+   background-color: yellow;
+   margin-top: 3%;
+   margin-left: 15%;
+   margin-right: 15%;
+ }
