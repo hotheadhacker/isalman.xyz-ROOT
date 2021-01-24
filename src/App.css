@@ -39,7 +39,8 @@
 
 .container{
 background-color:darkslategray;
-height: 700px;
+height: auto;
+padding-bottom: 10px;
 }
 
 .heading{
@@ -133,10 +134,11 @@ a:hover { color: white; }
   font-size: 20px;
 }
 
-pre, code { 
+.qTxt { 
   font-family: Hack, monospace;
   color:#003B00;
   font-weight: bold;
+  text-align: center;
  }
  .quotes{
    background-color: yellow;
@@ -144,3 +146,40 @@ pre, code {
    margin-left: 15%;
    margin-right: 15%;
  }
+
+ 
+.footer{
+  text-align: center;
+}
+
+.github:hover{
+  color:grey
+}
+
+.twitter:hover{
+  color: #00acee;
+}
+.instagram:hover{
+  color: tomato;
+}
+.website:hover{
+  color: greenyellow;
+}
+.email:hover{
+  color: yellow;
+}
+.blog:hover{
+  color: red;
+}
+
+.footer a{
+  color: white;
+}
+
+.footer h3{
+  color: white;
+}
+
+.footer h3 a{
+  color: tomato;
+}
