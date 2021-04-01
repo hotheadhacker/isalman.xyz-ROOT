@@ -53,7 +53,7 @@ function App() {
         {/* <p className="qTxt">"{Quotes.quotes[x].quote}" - {Quotes.quotes[x].author}</p> */}
 
         <Typical
-        steps={[`"${Quotes.quotes[x].quote} -"  ${Quotes.quotes[x].author}`, 1500]}
+        steps={[`"${Quotes.quotes[x].quote}" - ${Quotes.quotes[x].author}`, 1500]}
         loop={Infinity}
         wrapper="p"
         className="qTxt"
